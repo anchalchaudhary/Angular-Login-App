@@ -1,0 +1,24 @@
+label {
+	font-family: 'Josefin Sans';
+	color: white;
+	font-weight: 400 !important;
+	text-transform: uppercase;
+}
+.form-control {
+    margin: 0px !important;
+    font-size: 1em !important;
+    box-sizing: border-box !important;
+    border: none !important;
+    border-radius: 0px !important;
+    background-color: rgba(0,0,0,0) !important;
+    box-shadow: none !important;
+    border-bottom: 2px solid #4f5f76 !important;
+    color: white !important;
+	font-family: 'Josefin Sans';
+}
+.form-control:focus 
+ {
+ 	border-bottom: 2px solid #FED766  !important;
+	animation-name: fadeIn;
+	animation-duration: 1000ms;
+ }
